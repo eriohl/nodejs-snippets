@@ -6,13 +6,13 @@ const assert = require('assert');
 var obj = wrap.createObject(10);
 
 assert.strictEqual(obj.plusOne(), 11);
-assert.strictEqual(obj.plusOne(),12);
+assert.strictEqual(obj.plusOne(), 12);
 
 assert.strictEqual(wrap.plusOne(obj), 13);
 
 obj = null;
 
-//global.gc();
+if (global.gc) global.gc();
 
 assert.throws(
   () => {

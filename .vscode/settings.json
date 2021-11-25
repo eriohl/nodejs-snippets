@@ -1,0 +1,26 @@
+{
+    "editor.formatOnSave": true,
+    "C_Cpp.clang_format_fallbackStyle": "Google",
+    "C_Cpp.default.includePath": [
+        "${default}",
+        "/usr/include",
+        "/usr/include/node"
+    ],
+    "files.associations": {
+        "array": "cpp",
+        "string": "cpp",
+        "string_view": "cpp",
+        "filesystem": "cpp",
+        "*.tcc": "cpp",
+        "functional": "cpp",
+        "random": "cpp",
+        "hash_map": "cpp",
+        "hash_set": "cpp",
+        "bitset": "cpp",
+        "initializer_list": "cpp",
+        "utility": "cpp",
+        "tuple": "cpp",
+        "chrono": "cpp",
+        "algorithm": "cpp"
+    }
+}
